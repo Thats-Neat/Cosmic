@@ -3,11 +3,11 @@
   <h1 align="center">Cosmic</h1>
 
   <p align="center">
-    <a href="WEB ADDRESS FOR CODE">View Code</a>
+    <a href="https://github.com/Thats-Neat/Cosmic">View Code</a>
     ·
-    <a href="WEB ADDRESS FOR ISSUE PAGE">Report Bug</a>
+    <a href="https://github.com/Thats-Neat/Cosmic/issues">Report Bug</a>
     ·
-    <a href="WEB ADDRESS FOR ISSUE PAGE">Request Feature</a>
+    <a href="https://github.com/Thats-Neat/Cosmic/issues">Request Feature</a>
   </p>
 </div>
 
