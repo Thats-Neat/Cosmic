@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Goldman', cursive;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+video {
+  width: fill;
+  height: fill;
+  object-fit: cover;
+}
+
+.page-title-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 2%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: top;
+  font-size: 50px;
+}
+
+.page-title-description {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: top;
+  font-size: 20px;
+}
+
+.token-title {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: top;
+}
+
+.token-input {
+  position: absolute;
+  top: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: top;
+  border-radius: 7px;
+  text-align: center;
+  width: 35%;
+  height: 2%;
+  right: 32.5%;
+}
+
+.submit-btn {
+  position: absolute;
+  top: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  right: 42.5%;
+
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 80px;
+  border: 3px solid #50535e;
+  border-radius: 10px;
+}
+
+.submit-btn:hover {
+  animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+  0% {
+    box-shadow: 
+    0 0 25px #32343b,
+    0 0 50px #5c050c; 
+  }
+}
+
+.gameState-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 95%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: top;
+  font-size: 20px;
+}
+
