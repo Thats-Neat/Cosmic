@@ -23,14 +23,6 @@ Will be able to connect to space traders api and allows users to play the game t
 
 - [@Thats-Neat](https://github.com/Thats-Neat)
 
-## Installation
-
-Download project then run command below for libraries
-
-```bash
-  pip install -r requirements.txt 
-```
-
 
 ## Roadmap
 
